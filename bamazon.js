@@ -28,7 +28,7 @@ var makeTable = function(){
 var promptCustomer = function(res) {
     inquirer.prompt([{
         type:'input',
-        name:'choise',
+        name:'choice',
         message:"What would you like to purchase? [Quit with Q]"
     }]).then(function(answer){
         var correct = false;
